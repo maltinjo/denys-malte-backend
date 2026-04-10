@@ -1,0 +1,12 @@
+<div>
+  <h1>Manufactures</h1>
+
+  <ul>
+    {% for manufacture in manufactures %}
+    <li>
+      {{ manufacture.name }}
+      {{ manufacture.country }}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
